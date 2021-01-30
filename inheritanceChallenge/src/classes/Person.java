@@ -1,4 +1,4 @@
-package inheritanceChallenge;
+package classes;
 /* Author: HackerRank (this class was provided in the challenge)
  * Date: 2021-01-29
  * Description: This is the super class of the student class
