@@ -11,19 +11,26 @@ import java.util.*; // Import scanner
 public class Solution {
 
 	public static void main(String[] args) {
-		Scanner scan = new Scanner(System.in);
-		String firstName = scan.next();
-		String lastName = scan.next();
-		int id = scan.nextInt();
-		int numScores = scan.nextInt();
-		int[] testScores = new int[numScores];
+		Scanner scan = new Scanner(System.in);  // Initialize scanner
+		String firstName = scan.next();         // Take input for first name
+		String lastName = scan.next();          // Take input for last name
+		int id = scan.nextInt();                // Take input for student id (7-digits)
+		int numScores = scan.nextInt();			// Take input for number of scores
+		int[] testScores = new int[numScores];	// Initialize array of test scores
+		
+		// Take input for test scores 
 		for(int i = 0; i < numScores; i++){
 			testScores[i] = scan.nextInt();
 		}
-		scan.close();
+		scan.close(); 
 			
+		// Create an instance of the student class
 		Student s = new Student(firstName, lastName, id, testScores);
+		
+		// Call print method from the person class
 		s.printPerson();
+		
+		// Print grade
 		System.out.println("Grade: " + s.calculate() );
 	}
 }
