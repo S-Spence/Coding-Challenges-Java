@@ -1,7 +1,11 @@
-package inheritanceChallenge;
+package classes;
 /* Author: HackerRank (this class was provided in the challenge)
  * Date: 2021-01-29
  * Description: This is the run file to calculate the students grade
+ *              The user input should be in the format:
+ *                      Line 1: A string in the format "first name last name 7-digit id number"
+ *                      Line 2: The number of grades
+ *                      Line 2: Space separated integers between 0 - 100 for the grades
  */
 import java.util.*; // Import scanner
 public class Solution {
