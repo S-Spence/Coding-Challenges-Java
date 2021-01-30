@@ -1,4 +1,4 @@
-package inheritanceChallenge;
+package classes;
 /* Author: Sarah Spence
  * Date: 2021-01-29
  * Description: This class inherits firstName, lastName, and ID from the person class
